@@ -25,10 +25,12 @@ import { ningxia, qinghai } from 'baidu-boundarydata'
 //TS
 import * as mapData from 'baidu-boundarydata'
 const areaMap = {
-  fujian: mapData.fujian.cityCode,
+  ningxia: mapData.ningxia.cityCode,
+  qinghai: mapData.qinghai.cityCode,
 }
 const provinceMap = {
-  fujian: mapData.fujian.provinceCode,
+  ningxia: mapData.ningxia.provinceCode,
+  qinghai: mapData.qinghai.provinceCode,
 }
 export { areaMap, provinceMap }
 ```
